@@ -2,7 +2,7 @@
 :root {
   --bg: #282828;
   --fg: #ebdbb2;
-	--fg-1: #ebdbb2
+	--fg-1: #ebdbb2;
   --fg-alt: #d5c4a1;
   --red: #fb4934;
   --green: #b8bb26;
@@ -19,7 +19,8 @@ body {
   color: var(--fg);
   font-family: "Fira Sans", "Segoe UI", sans-serif;
   line-height: 1.5;
-  margin: 0;
+  max-width: 40em;
+  margin: auto;
   padding: 1rem 2rem;
 }
 
@@ -73,6 +74,7 @@ img {
 nav a {
   margin-right: 1rem;
   text-decoration: none;
-	color: var(--purple);
+	color: var(--fg-alt);
 }
+
 
