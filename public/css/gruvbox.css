@@ -1,0 +1,78 @@
+/* --- Base Gruvbox Colors --- */
+:root {
+  --bg: #282828;
+  --fg: #ebdbb2;
+	--fg-1: #ebdbb2
+  --fg-alt: #d5c4a1;
+  --red: #fb4934;
+  --green: #b8bb26;
+  --yellow: #fabd2f;
+  --blue: #83a598;
+  --purple: #d3869b;
+  --aqua: #8ec07c;
+  --gray: #928374;
+}
+
+/* --- Body --- */
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+  font-family: "Fira Sans", "Segoe UI", sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 1rem 2rem;
+}
+
+/* --- Headings --- */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--fg1);
+}
+
+/* --- Links --- */
+a {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--green);
+}
+
+.moe {
+	color:var(--purple);
+}
+
+/* strong { */
+/* 	color:var(--purple); */
+/* } */
+
+
+/* --- Code --- */
+code {
+  background-color: var(--gray);
+  color: var(--fg);
+  padding: 0.1em 0.2em;
+  border-radius: 3px;
+  font-family: "Fira Mono", monospace;
+}
+
+
+/* --- Microblog entries --- */
+.micro-entry {
+  border-bottom: 1px solid #504945;
+  padding: 0.5rem 0;
+}
+
+/* --- Images --- */
+img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+
+nav a {
+  margin-right: 1rem;
+  text-decoration: none;
+	color: var(--purple);
+}
+

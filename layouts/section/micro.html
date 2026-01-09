@@ -1,0 +1,27 @@
+{{ define "main" }}
+<h1>Micro</h1>
+
+{{ $paginator := .Paginate .Pages }}
+
+{{ range $paginator.Pages }}
+  <div class="micro-entry">
+    <div class="meta">
+      ParaPri <a href="{{ .RelPermalink }}">
+        {{ .Date.Format "2006-01-02 15:04" }}
+      </a>
+    </div>
+    {{ .Content }}
+  </div>
+{{ end }}
+
+<nav>
+  {{ if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL }}">Newer</a>
+  {{ end }}
+
+  {{ if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL }}">Older</a>
+  {{ end }}
+</nav>
+{{ end }}
+

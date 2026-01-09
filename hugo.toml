@@ -1,0 +1,15 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'lemma.moe mock'
+[markup.goldmark.renderer]
+unsafe = true
+	[markup.goldmark.extensions]
+	definitionList = true
+	footnote = true
+	linkify = true
+	strikethrough = true
+	table = true
+	taskList = true
+	typographer = true
+	mark = true
+

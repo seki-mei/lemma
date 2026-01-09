@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ .Title }}</title>
+  <link rel="stylesheet" href="/css/gruvbox.css">
+</head>
+<body>
+  <header>
+		<span>
+    <nav>
+      <a href="/">Main</a>
+      <a href="/rat/">Rat</a>
+      <a href="/mys/">推理</a>
+      <a href="/micro/">µ</a>
+      <a href="/about/">About</a>
+    </nav>
+  </header>
+
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+</body>
+</html>
+
