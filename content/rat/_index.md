@@ -1,4 +1,4 @@
 ---
-title: "rat"
+title: "Rationality"
 ---
 

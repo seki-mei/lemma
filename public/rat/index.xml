@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>rat on lemma.moe mock</title>
+    <title>Rationality on lemma.moe mock</title>
     <link>http://localhost:1313/rat/</link>
-    <description>Recent content in rat on lemma.moe mock</description>
+    <description>Recent content in Rationality on lemma.moe mock</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 10 Jan 2026 01:14:52 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/rat/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>contra contra Lorem Ipsum Etc</title>
+      <title>Contra Contra Lorem Ipsum Etc</title>
       <link>http://localhost:1313/rat/250110/</link>
       <pubDate>Sat, 10 Jan 2026 01:14:52 +0100</pubDate>
       <guid>http://localhost:1313/rat/250110/</guid>

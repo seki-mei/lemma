@@ -1,9 +1,8 @@
 ---
+
 ---
 
 # Welcome to lemma<span class="moe">.moe</span>
 
-~~strikethrough~~
-
-==aaaa==
-
+⚠️ under construction ⚠️   
+this page was last updated on 2025-01-10

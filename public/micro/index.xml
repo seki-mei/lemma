@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>µ on lemma.moe mock</title>
+    <title>shortform on lemma.moe mock</title>
     <link>http://localhost:1313/micro/</link>
-    <description>Recent content in µ on lemma.moe mock</description>
+    <description>Recent content in shortform on lemma.moe mock</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 10 Jan 2026 01:00:02 +0100</lastBuildDate>
