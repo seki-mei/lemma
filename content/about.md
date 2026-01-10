@@ -7,8 +7,11 @@ title = 'About Me'
 I go by **Wotton** / **わたん** / **ParaPri** / **Paraconsistent Prior**.  
 I'm obsessed with reasoning.
 
+[external link example](https://lesswrong.com)
+
 <details>
 <summary>e-mail</summary>
+
 
 >*There once was a mail address*  
 >*that bots were eager to guess.*  
@@ -23,16 +26,10 @@ I'm obsessed with reasoning.
 <a href="http://discord.com/users/82541559790178304">
 <button class="link-button">discord profile</button>
 </a>
-<br>
-<a href="https://misskey.io/@wotton">
-<button class="link-button">misskey</button>
-</a>
-<br>
 <a href="https://www.admonymous.co/wotton">
 <button class="link-button">anonymous feedback</button>
 </a>
 <br>
 <button class="link-button" onclick="copy(this, '119487470')">MajSoul ID ⧉</button>
-<br>
 <button class="link-button" onclick="copy(this, '613129173')">Riichi City ID ⧉</button>
 </div>

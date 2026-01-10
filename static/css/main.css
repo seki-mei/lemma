@@ -1,0 +1,137 @@
+/* --- Base Gruvbox Colors --- */
+@import url("gvb.css");
+:root {
+    --bg: var(--gvb-bg0);
+    --bg-alt: var(--gvb-bg0_s);
+    --bg-button: var(--gvb-bg2);
+    --fg: var(--gvb-fg1);
+    --fg-alt: var(--gvb-fg1);
+    --border: var(--fg);
+    --link: var(--gvb-purple2);
+    --link-hover: var(--link);
+    --link-external: var(--gvb-blue2);
+    --link-external-hover: var(--link-external);
+    --accent: var(--gvb-purple2);
+    --gray: #928374;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--fg);
+    font-family: "Fira Sans","Segoe UI", sans-serif;
+    line-height: 1.5;
+    max-width: 40em;
+    margin: auto;
+    padding: 1rem 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--fg-alt);
+}
+
+a {
+    color: var(--link);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--link-hover);
+    text-decoration: underline;
+}
+
+a[href^="http://"],
+a[href^="https://"] {
+    color: var(--link-external);
+}
+a[href^="http://"]:hover,
+a[href^="https://"]:hover {
+    color: var(--link-external-hover);
+}
+
+.moe {
+    color:var(--accent);
+}
+
+code {
+    background-color: var(--gray);
+    color: var(--fg);
+    padding: 0.1em 0.2em;
+    border-radius: 3px;
+    font-family: "Fira Mono", monospace;
+}
+
+
+.micro-entry {
+    background-color: var(--bg-alt);
+    padding: 0.5em 1em 0.5em 1em;
+    margin-bottom: 1em;
+    /*cursor:pointer;*/
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+
+nav a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: var(--fg-alt);
+}
+
+nav a:hover {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+blockquote {
+    background-color: var(--bg-alt);
+    border-left: 3px solid var(--accent);
+    padding-left: 1em;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+summary {
+    list-style-type: none;
+    cursor:pointer;
+    margin-left: 1em;
+    padding: 0.5em 0;
+
+}
+details:active {
+    transform: translateY(4px);
+}
+
+details {
+    background-color: var(--bg-button);
+    border-width: 1px;
+    border-radius: 2px;
+    border-style: inset;
+    max-width: 30em;
+}
+
+#links-list {
+    padding-top: 1em;
+}
+
+button {
+    line-height: 1.2; /* because of clipboard symbol */
+    color: var(--fg);
+    background-color: var(--bg-button);
+    font-size: 1.2em;
+    min-width: 12em;
+    padding: 0.5em 0;
+    border-color: var(--border);
+    border-style: inset;
+    border-width: 2px;
+    border-radius: 1px;
+    cursor: pointer;
+    margin: 0.5em 0.5em 0.5em 0;
+}
+
+button:active {
+    transform: translateY(4px);
+}
+

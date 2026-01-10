@@ -1,0 +1,39 @@
+:root{
+/* dark */
+	--gvb-bg:       #282828;
+	--gvb-red:      #cc241d;
+	--gvb-green:    #98971a;
+	--gvb-yellow:   #d79921;
+	--gvb-blue:     #458588;
+	--gvb-purple:   #b16286;
+	--gvb-aqua:     #689d6a;
+	--gvb-gray:     #a89984;
+
+/* bright */
+	--gvb-gray2:    #928374;
+	--gvb-red2:     #fb4934;
+	--gvb-green2:   #b8bb26;
+	--gvb-yellow2:  #fabd2f;
+	--gvb-blue2:    #83a598;
+	--gvb-purple2:  #d3869b;
+	--gvb-aqua2:    #8ec07c;
+	--gvb-fg:       #ebdbb2;
+
+/* higher number is brighter */
+	--gvb-bg0_h:    #1d2021;
+	--gvb-bg0:      #282828;
+	--gvb-bg1:      #3c3836;
+	--gvb-bg2:      #504945;
+	--gvb-bg3:      #665c54;
+	--gvb-bg4:      #7c6f64;
+	--gvb-gray3:    #928374;
+	--gvb-orange:   #d65d0e;
+
+	--gvb-bg0_s:    #32302f;
+	--gvb-fg4:      #a89984;
+	--gvb-fg3:      #bdae93;
+	--gvb-fg2:      #d5c4a1;
+	--gvb-fg1:      #ebdbb2;
+	--gvb-fg0:      #fbf1c7;
+	--gvb-orange2:   #fe8019;
+}
