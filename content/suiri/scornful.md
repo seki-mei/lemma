@@ -1,6 +1,6 @@
 +++
 date = '2026-01-12T23:53:35+01:00'
-draft = true
+draft = false
 title = 'Seat of the Scornful'
 +++
 
