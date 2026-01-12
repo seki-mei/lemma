@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://lemma.moe'
 languageCode = 'en-us'
-title = 'lemma.moe mock'
+title = 'lemma.moe'
 [markup.goldmark.renderer]
 unsafe = true
 	[markup.goldmark.extensions]
