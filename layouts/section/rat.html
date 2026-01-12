@@ -2,10 +2,12 @@
 <h1>Rationality</h1>
 
 {{ range .Pages }}
+<a href="{{ .RelPermalink }}">
   <article>
-    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <h2>{{ .Title }}</h2>
     {{ .Summary }}
   </article>
+</a>
 {{ end }}
 {{ end }}
 

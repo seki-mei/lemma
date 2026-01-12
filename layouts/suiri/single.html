@@ -5,12 +5,10 @@
   </h1>
 </a>
 
-{{ range .Pages }}
-<a href="{{ .RelPermalink }}">
-  <article>
-    <h2>{{ .Title }}</h2>
-  </article>
-</a>
-{{ end }}
+
+<article>
+  <h2>{{ .Title }}</h2>
+  {{ .Content }}
+</article>
 {{ end }}
 

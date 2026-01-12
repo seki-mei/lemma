@@ -1,17 +1,17 @@
 {{ define "main" }}
-<h1>Shortform</h1>
+<a href="/micro/"><h1>Shortform</h1></a>
 
 {{ $paginator := .Paginate .Pages }}
 
 {{ range $paginator.Pages }}
-  <div class="micro-entry">
+<a href="{{ .RelPermalink }}">
+  <article class="micro-entry">
     <div class="meta">
-      ParaPri <a href="{{ .RelPermalink }}">
         {{ .Date.Format "2006-01-02 15:04" }}
-      </a>
     </div>
     {{ .Content }}
-  </div>
+  </article>
+</a>
 {{ end }}
 
 <nav>

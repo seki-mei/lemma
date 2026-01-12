@@ -10,7 +10,7 @@
     --link: var(--gvb-purple2);
     --link-hover: var(--link);
     --link-external: var(--gvb-blue2);
-    --link-external-hover: var(--link-external);
+    --link-external-hover: var(--gvb-blue);
     --accent: var(--gvb-purple2);
     --gray: #928374;
 }
@@ -20,9 +20,13 @@ body {
     color: var(--fg);
     font-family: "Fira Sans","Segoe UI", sans-serif;
     line-height: 1.5;
-    max-width: 40em;
+    max-width: min(60ch, 90%);
     margin: auto;
     padding: 1rem 2rem;
+}
+
+h1 {
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -36,7 +40,7 @@ a {
 
 a:hover {
     color: var(--link-hover);
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 
 a[href^="http://"],
@@ -61,11 +65,27 @@ code {
 }
 
 
-.micro-entry {
+/*.micro-entry {*/
+/*    background-color: var(--bg-alt);*/
+/*    padding: 0.5em 1em 0.5em 1em;*/
+/*    margin: 1em 0em 0em 0em;*/
+/*}*/
+
+article {
     background-color: var(--bg-alt);
-    padding: 0.5em 1em 0.5em 1em;
-    margin-bottom: 1em;
-    /*cursor:pointer;*/
+    padding: 0.1em 1em 0.5em 1em;
+    margin: 1em 0em 0em 0em;
+    border-radius: 5px;
+}
+
+a > article,
+a > .micro-entry {
+    color: var(--fg);
+}
+
+a > article:hover,
+a > .micro-entry:hover {
+    text-decoration: none;
 }
 
 img {
@@ -73,9 +93,15 @@ img {
     border-radius: 5px;
 }
 
+img {
+    max-width: 17%;
+}
 
+nav {
+    text-align: center;
+}
 nav a {
-    margin-right: 1rem;
+    margin: 0 0.5rem;
     text-decoration: none;
     color: var(--fg-alt);
 }
@@ -93,11 +119,16 @@ blockquote {
     padding-bottom: 1px;
 }
 
+details > blockquote {
+    margin: 1em;
+}
+
 summary {
     list-style-type: none;
     cursor:pointer;
     margin-left: 1em;
     padding: 0.5em 0;
+    user-select: none; /* gets in the way when clicking */
 
 }
 details:active {
@@ -109,11 +140,16 @@ details {
     border-width: 1px;
     border-radius: 2px;
     border-style: inset;
-    max-width: 30em;
+    padding: 0 1em;
+}
+
+#about-me{
+    text-align:center;
 }
 
 #links-list {
     padding-top: 1em;
+    text-align: center;
 }
 
 button {
