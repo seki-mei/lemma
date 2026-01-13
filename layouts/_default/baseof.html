@@ -6,6 +6,11 @@
 	<meta charset="utf-8">
 	<title>{{ .Title }}</title>
 	<link rel="stylesheet" href="/css/main.css">
+	<!--embeds-->
+	<meta property="og:title" content="{{ .Title }}">
+	<meta property="og:description" content="{{ .Content }}">
+	<meta property="og:image" content="{{ .Params.images }}">
+	<meta property="og:url" content="{{ .Permalink }}">
 </head>
 <body>
   <header>
