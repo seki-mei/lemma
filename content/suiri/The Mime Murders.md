@@ -14,10 +14,8 @@ The police follows him, but without his mime attire they are unable to to figure
 And the morning after the police arrives, a new corpse is discovered.  
 The corpse is found face-down in his room with a minor injuries on his body, but the actual cause of death is a heart attack, despite the victim's young age.  
 An overturned chair is the only other sign of a struggle in the room.
-
+<!--more-->
 ---
-
-
 <details>
 <summary>Solution (if you can call it that)</summary>
 If the victim had struggled with the killer, then it's likely that the victim would have screamed or called for help.  
