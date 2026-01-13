@@ -6,6 +6,8 @@ title = 'Seat of the Scornful'
 
 A limerick about John Dickson Carr's *Seat of the Scornful (Death Turns The Tables)*.  
 
+<!--more-->
+
 <details>
 <summary>⚠️ Warning: full spoilers! ⚠️</summary>  
 
