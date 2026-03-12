@@ -5,4 +5,4 @@ FILE="content/micro/$(date +"%y-%m-%d-%H%M").md"
 hugo new "$FILE"
 git add "$FILE"
 sleep 1
-edit "$FILE"
+"$EDITOR" "$FILE"
