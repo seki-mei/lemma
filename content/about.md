@@ -27,16 +27,16 @@ I'm obsessed with reasoning.
 <a href="https://www.admonymous.co/wotton">
 <button class="link-button">anonymous feedback</button>
 </a>
-<br>
-<button class="link-button" onclick="copy(this, '119487470')">MajSoul ID ⧉</button>
-<button class="link-button" onclick="copy(this, '613129173')">Riichi City ID ⧉</button>
+<!-- <br> -->
+<!-- <button class="link-button" onclick="copy(this, '119487470')">MajSoul ID ⧉</button> -->
+<!-- <button class="link-button" onclick="copy(this, '613129173')">Riichi City ID ⧉</button> -->
 </div>
 
-<script>
-	function copy(btn, text) {
-		navigator.clipboard.writeText(text);
-		const original = btn.textContent;
-		btn.textContent = 'copied nya!';
-		setTimeout(() => btn.textContent = original, 1000);
-					}
-</script>
+<!-- <script> -->
+<!-- 	function copy(btn, text) { -->
+<!-- 		navigator.clipboard.writeText(text); -->
+<!-- 		const original = btn.textContent; -->
+<!-- 		btn.textContent = 'copied nya!'; -->
+<!-- 		setTimeout(() => btn.textContent = original, 1000); -->
+<!-- 					} -->
+<!-- </script> -->
